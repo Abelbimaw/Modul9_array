@@ -204,6 +204,7 @@ public class PemilihanDokter extends javax.swing.JFrame {
     private javax.swing.JTextField tbwaktu;
     // End of variables declaration                   
 }
+
 ![Image SS5](https://github.com/Abelbimaw/Modul9_array/blob/master/PemilihanDokter.PNG)
 ![Image SS6](https://github.com/Abelbimaw/Modul9_array/blob/master/PemilihanDokter%201.PNG)
 
