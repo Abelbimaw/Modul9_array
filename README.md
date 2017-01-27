@@ -10,5 +10,5 @@
 ![Image SS6](https://github.com/Abelbimaw/Modul9_array/blob/master/PemilihanDokter%201.PNG)
 ![Image SS7](https://github.com/Abelbimaw/Modul9_array/blob/master/pencarian%201.PNG)
 ![Image SS8](https://github.com/Abelbimaw/Modul9_array/blob/master/pencarian%202.PNG)
-![Image SS9}(https://github.com/Abelbimaw/Modul9_array/blob/master/pencarian%203.PNG)
+![Image SS9](https://github.com/Abelbimaw/Modul9_array/blob/master/pencarian%203.PNG)
 ![Image SS10](https://github.com/Abelbimaw/Modul9_array/blob/master/pencarian%204.PNG)
