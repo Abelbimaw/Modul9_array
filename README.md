@@ -1,5 +1,37 @@
 # Modul9_array
+# Script array 1
+public class Array1 {
+ public static void main (String [] args){
+  int nilai [] = new int [3];
+  nilai [0] = 70;
+  nilai [1] = 80;
+  nilai [2] = 65;
+  double ratarata = 0.0;
+  for (int i = 0; i <nilai.length; i++) 
+        ratarata+= nilai [i];
+        ratarata/=nilai.length;
+        System.out.println("Nilai rata-rata = "+ ratarata);
+ }   
+}
 
+![Image SS1](https://github.com/Abelbimaw/Modul9_array/blob/master/array%201.PNG)
+
+# Script array 2
+public class Array2 {
+    public static void main (String [] args){
+        int [] jumlahhari;
+        jumlahhari = new int [7];
+        jumlahhari [0] = 31;
+        jumlahhari [1] = 28;
+        jumlahhari [2] = 31;
+        jumlahhari [3] = 30;
+        jumlahhari [4] = 31;
+        jumlahhari [5] = 30;
+        jumlahhari [6] = 31;
+        System.out.println("Bulan Januari memiliki " + jumlahhari [2]+" hari. ");
+    }
+}
+![Image SS2](https://github.com/Abelbimaw/Modul9_array/blob/master/array%202.PNG)
 
 #ScreenShot
 ![Image SS1](https://github.com/Abelbimaw/Modul9_array/blob/master/array%201.PNG)
