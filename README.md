@@ -1,95 +1,24 @@
 # Modul9_array
-# Script array 1
-public class Array1 {
- public static void main (String [] args){
-  int nilai [] = new int [3];
-  nilai [0] = 70;
-  nilai [1] = 80;
-  nilai [2] = 65;
-  double ratarata = 0.0;
-  for (int i = 0; i <nilai.length; i++) 
-        ratarata+= nilai [i];
-        ratarata/=nilai.length;
-        System.out.println("Nilai rata-rata = "+ ratarata);
- }   
-}
+# Array 1
+![Image SS1](https://github.com/Abelbimaw/Modul9_array/blob/master/code1.PNG)
 ![Image SS1](https://github.com/Abelbimaw/Modul9_array/blob/master/array%201.PNG)
 
-# Script array 2
-public class Array2 {
-    public static void main (String [] args){
-        int [] jumlahhari;
-        jumlahhari = new int [7];
-        jumlahhari [0] = 31;
-        jumlahhari [1] = 28;
-        jumlahhari [2] = 31;
-        jumlahhari [3] = 30;
-        jumlahhari [4] = 31;
-        jumlahhari [5] = 30;
-        jumlahhari [6] = 31;
-        System.out.println("Bulan Januari memiliki " + jumlahhari [2]+" hari. ");
-    }
-}
+# Array 2
+![Image SS2](https://github.com/Abelbimaw/Modul9_array/blob/master/code2.PNG)
 ![Image SS2](https://github.com/Abelbimaw/Modul9_array/blob/master/array%202.PNG)
 
-# Script array 3
-public class Array3 {
-    public static void main (String [] args){
-        int nilai [][] = new int [2][3];
-        nilai [0][0]=85;
-        nilai [0][1]=81;
-        nilai [0][2]=78;
-        nilai [1][0]=65;
-        nilai [1][1]=73;
-        nilai [1][2]=71;
-        String MP[]={"RPL","TKJ"};
-        double ratarataMP[]= new double[nilai.length];
-            for (int i=0; i<nilai.length; i++){
-                for (int j=0; j<nilai.length; j++){
-                    ratarataMP[i]+= nilai [i][j];
-                }
-                ratarataMP[i]/=nilai[0].length;
-            } 
-            System.out.println("Nilai Mata Pelajaran");
-            System.out.println("MK\tMinggu1\tMinggu2\tMinggu3\tRata-Rata");
-            for (int i=0; i <nilai.length; i++){
-                System.out.println(MP[i]+ "\t");
-                for (int j=0; j<nilai[0].length; j++){
-                    System.out.print(ratarataMP[i]+"\n");
-                }
-            }
-    }
-    
-}
+# Array 3
+![Image SS3](https://github.com/Abelbimaw/Modul9_array/blob/master/code3.PNG)
 ![Image SS3](https://github.com/Abelbimaw/Modul9_array/blob/master/array%203.PNG)
 
-# Script testarray2
-public class testarraydua {
-    int nis [][]= {{210651},{210651},{210652}};
-        String nama [][] = {{"Harun Ulum"},{"Nur Azmi"},{"Devita Fahma"}};  
-       
-        public void tampil(String n){
-            System.out.println("Identitas Siswa Angkatan 24");
-        }
-        public void namanis (int n){
-            for (int i = 0; i< 1;i++){
-                for (int j = 0; j<1;j++){
-                    System.out.println(nama[2][j]+":"+nis[1][j]);
-        }
-    }
-}
-public static void main (String [] args){
-testarraydua siswa = new testarraydua();
-siswa.tampil(null);
-siswa.namanis(0);
-}
-
-}
+# Testarray2
+![Image SS4](https://github.com/Abelbimaw/Modul9_array/blob/master/code4.PNG)
 ![Image SS4](https://github.com/Abelbimaw/Modul9_array/blob/master/testarraydua.PNG)
 
-# Script PemilihanDokter
-public class PemilihanDokter extends javax.swing.JFrame {
-
+# PemilihanDokter
+    
+    public class PemilihanDokter extends javax.swing.JFrame {
+   
     /**
      * Creates new form PemilihanDokter
      */
@@ -208,62 +137,66 @@ public class PemilihanDokter extends javax.swing.JFrame {
 ![Image SS5](https://github.com/Abelbimaw/Modul9_array/blob/master/PemilihanDokter.PNG)
 ![Image SS6](https://github.com/Abelbimaw/Modul9_array/blob/master/PemilihanDokter%201.PNG)
 
-# Script Pencariaan Sederhana Naik
-import java.*;
-import javax.swing.*;
+# Pencariaan Sederhana Naik  (Praktikum 1)
+    import java.*;
+    import javax.swing.*;
 
-public class Pencarian_Sederhana_naik {
-    public static void main (String []args){
-        try {
-            int[] DataArray={0,1,2,3,4,5,6,7,8,9,10};
-            int i, NilaiX;
-            boolean ketemu;
-            
-            System.out.println("");
-            System.out.println("Program Pencarina Data Sederhana");
-            System.out.println("================================");
-            System.out.println("");
-            
-           //menampilkan nilai array
-                for(i=0;i<11;i++)
-                System.out.print(DataArray[i]+" ");
-                System.out.print("");
+    public class Pencarian_Sederhana_naik {
+        public static void main (String []args){
+            try {
+                int[] DataArray={0,1,2,3,4,5,6,7,8,9,10};
+                int i, NilaiX;
+                boolean ketemu;
+
                 System.out.println("");
-                
-                // Masukan Data yang Di cari
-                    String bilangan=JOptionPane.showInputDialog("Masukan nilai yang kamu cari??");
-                    NilaiX =Integer.parseInt(bilangan);
-                    System.out.println("");
-                    System.out.println("data yang di cari adalah="+NilaiX);
-                    ketemu=false;
-                    for(i=0;i<11;i++){
-                        if(DataArray[i]==NilaiX)
-                        {
-                            ketemu=true;
-                            break;
-                        }
-                    } 
-                    
-                System.out.println("=============================");
+                System.out.println("Program Pencarina Data Sederhana");
+                System.out.println("================================");
                 System.out.println("");
-                if(ketemu==true){
-                    System.out.println("Data di temukan pada elemen ke"+ (i+1));
-                } else{
-                    System.out.println("Data tidak di temukan ");
-                    System.out.println("~~~~~~~~~~~~~~~~~~~~~`");
+
+               //menampilkan nilai array
+                    for(i=0;i<11;i++)
+                    System.out.print(DataArray[i]+" ");
+                    System.out.print("");
                     System.out.println("");
+
+                    // Masukan Data yang Di cari
+                        String bilangan=JOptionPane.showInputDialog("Masukan nilai yang kamu cari??");
+                        NilaiX =Integer.parseInt(bilangan);
+                        System.out.println("");
+                        System.out.println("data yang di cari adalah="+NilaiX);
+                        ketemu=false;
+                        for(i=0;i<11;i++){
+                            if(DataArray[i]==NilaiX)
+                            {
+                                ketemu=true;
+                                break;
+                            }
+                        } 
+
+                    System.out.println("=============================");
                     System.out.println("");
-                    System.out.println("");
-                    System.exit(0);            
-                }
-                    
-        } catch (NullPointerException e){
-            System.out.println("NPE");}
-    
+                    if(ketemu==true){
+                        System.out.println("Data di temukan pada elemen ke"+ (i+1));
+                    } else{
+                        System.out.println("Data tidak di temukan ");
+                        System.out.println("~~~~~~~~~~~~~~~~~~~~~`");
+                        System.out.println("");
+                        System.out.println("");
+                        System.out.println("");
+                        System.exit(0);            
+                    }
+
+            } catch (NullPointerException e){
+                System.out.println("NPE");}
+
+        }
     }
-}
-
 ![Image SS7](https://github.com/Abelbimaw/Modul9_array/blob/master/pencarian%201.PNG)
 ![Image SS8](https://github.com/Abelbimaw/Modul9_array/blob/master/pencarian%202.PNG)
 ![Image SS9](https://github.com/Abelbimaw/Modul9_array/blob/master/pencarian%203.PNG)
 ![Image SS10](https://github.com/Abelbimaw/Modul9_array/blob/master/pencarian%204.PNG)
+
+# PeminjamanBuku (Praktikum2)
+![Image SS11](https://github.com/Abelbimaw/Modul9_array/blob/master/code9.PNG)
+![Image SS12](https://github.com/Abelbimaw/Modul9_array/blob/master/prak2%201.PNG)
+![Image SS13](https://github.com/Abelbimaw/Modul9_array/blob/master/prak2%202.PNG)
