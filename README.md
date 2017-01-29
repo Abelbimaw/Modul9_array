@@ -196,7 +196,13 @@
 ![Image SS9](https://github.com/Abelbimaw/Modul9_array/blob/master/pencarian%203.PNG)
 ![Image SS10](https://github.com/Abelbimaw/Modul9_array/blob/master/pencarian%204.PNG)
 
+# Penjelasan Parktikum1
+    Jadi program ini berisikan tentang array yang bisa diinputkan nilai yang sudah diberitahukan di awal program, dan jika sesuai dengan angka yang diinputkan, maka tersebut dapat diketahui elemen keberapa. Sedangkan jika tidak sesuia maka akan tidak diketahui elemen keberapanya.
+
 # PeminjamanBuku (Praktikum2)
 ![Image SS11](https://github.com/Abelbimaw/Modul9_array/blob/master/code9.PNG)
 ![Image SS12](https://github.com/Abelbimaw/Modul9_array/blob/master/prak2%201.PNG)
 ![Image SS13](https://github.com/Abelbimaw/Modul9_array/blob/master/prak2%202.PNG)
+
+# Penjelasan Praktikum2
+    Jadi program di aplikasi ini cuma berupa data yang sudah dituliskan dan ditampilkan , jika kita memilih data tertentu maka data yang ingin kita ketahui maka akan tampil.
